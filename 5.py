@@ -1,4 +1,4 @@
-print("Inverte string")
+print("Mostra se a string é um políndromo")
 
 class Item:
     def __init__(self, value):
