@@ -59,7 +59,7 @@ def transforma(hexadecimal):
                 somaPotencias += 13 * (16 ** potencia)
             elif caractere == 'E':
                 somaPotencias += 14 * (16 ** potencia)
-            elif restoDivisao == 'F':
+            elif caractere == 'F':
                 somaPotencias += 15 * (16 ** potencia)
         
         potencia += 1
